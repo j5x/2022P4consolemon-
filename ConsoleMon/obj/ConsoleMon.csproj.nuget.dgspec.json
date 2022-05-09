@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MA\\2021-2022\\P4\\GDCSharp2\\GDCSharp2\\GDCSharp2\\GDCSharp2.csproj": {}
+    "C:\\MA\\2021-2022\\P4\\GDCSharp2\\ConsoleMon\\ConsoleMon.csproj": {}
   },
   "projects": {
-    "C:\\MA\\2021-2022\\P4\\GDCSharp2\\GDCSharp2\\GDCSharp2\\GDCSharp2.csproj": {
+    "C:\\MA\\2021-2022\\P4\\GDCSharp2\\ConsoleMon\\ConsoleMon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MA\\2021-2022\\P4\\GDCSharp2\\GDCSharp2\\GDCSharp2\\GDCSharp2.csproj",
-        "projectName": "GDCSharp2",
-        "projectPath": "C:\\MA\\2021-2022\\P4\\GDCSharp2\\GDCSharp2\\GDCSharp2\\GDCSharp2.csproj",
+        "projectUniqueName": "C:\\MA\\2021-2022\\P4\\GDCSharp2\\ConsoleMon\\ConsoleMon.csproj",
+        "projectName": "ConsoleMon",
+        "projectPath": "C:\\MA\\2021-2022\\P4\\GDCSharp2\\ConsoleMon\\ConsoleMon.csproj",
         "packagesPath": "C:\\Users\\jason\\.nuget\\packages\\",
-        "outputPath": "C:\\MA\\2021-2022\\P4\\GDCSharp2\\GDCSharp2\\GDCSharp2\\obj\\",
+        "outputPath": "C:\\MA\\2021-2022\\P4\\GDCSharp2\\ConsoleMon\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jason\\AppData\\Roaming\\NuGet\\NuGet.Config",

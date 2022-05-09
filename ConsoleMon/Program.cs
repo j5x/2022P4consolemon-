@@ -16,7 +16,7 @@ namespace GDCSharp2
             this.Energy -= Energy;
         }
     }
-    
+
 
     public class Skill
     {
@@ -28,8 +28,8 @@ namespace GDCSharp2
         {
             target.TakeDamage(Damage);
             caster.DepleteEnergy(EnergyCost);
-            
-            
+
+
         }
     }
 }
