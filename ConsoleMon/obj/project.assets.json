@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MA\\2021-2022\\P4\\GDCSharp2\\ConsoleMon\\ConsoleMon.csproj",
+      "projectUniqueName": "C:\\MA\\2021-2022\\P4\\GDCSharp2\\2022P4consolemon-\\ConsoleMon\\ConsoleMon.csproj",
       "projectName": "ConsoleMon",
-      "projectPath": "C:\\MA\\2021-2022\\P4\\GDCSharp2\\ConsoleMon\\ConsoleMon.csproj",
+      "projectPath": "C:\\MA\\2021-2022\\P4\\GDCSharp2\\2022P4consolemon-\\ConsoleMon\\ConsoleMon.csproj",
       "packagesPath": "C:\\Users\\jason\\.nuget\\packages\\",
-      "outputPath": "C:\\MA\\2021-2022\\P4\\GDCSharp2\\ConsoleMon\\obj\\",
+      "outputPath": "C:\\MA\\2021-2022\\P4\\GDCSharp2\\2022P4consolemon-\\ConsoleMon\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jason\\AppData\\Roaming\\NuGet\\NuGet.Config",

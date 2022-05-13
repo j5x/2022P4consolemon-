@@ -2,6 +2,15 @@
 
 namespace GDCSharp2
 {
+
+    enum Elementen
+    {
+        Fire,
+        Water,
+        Lightning,
+        Shadow,
+    }
+
     public class ConsoleMon
     {
         int Health = 100;
@@ -15,6 +24,7 @@ namespace GDCSharp2
         {
             this.Energy -= Energy;
         }
+        Elementen weakness = Elementen.Water;
     }
 
 
@@ -31,5 +41,9 @@ namespace GDCSharp2
 
 
         }
+        
+        Elementen element = Elementen.Fire;
+
+
     }
 }
