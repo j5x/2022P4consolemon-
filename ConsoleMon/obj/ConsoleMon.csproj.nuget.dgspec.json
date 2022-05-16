@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MA\\2021-2022\\P4\\GDCSharp2\\2022P4consolemon-\\ConsoleMon\\ConsoleMon.csproj": {}
+    "C:\\Users\\Mosaw\\Desktop\\test\\2022P4consolemon-\\ConsoleMon\\ConsoleMon.csproj": {}
   },
   "projects": {
-    "C:\\MA\\2021-2022\\P4\\GDCSharp2\\2022P4consolemon-\\ConsoleMon\\ConsoleMon.csproj": {
+    "C:\\Users\\Mosaw\\Desktop\\test\\2022P4consolemon-\\ConsoleMon\\ConsoleMon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MA\\2021-2022\\P4\\GDCSharp2\\2022P4consolemon-\\ConsoleMon\\ConsoleMon.csproj",
+        "projectUniqueName": "C:\\Users\\Mosaw\\Desktop\\test\\2022P4consolemon-\\ConsoleMon\\ConsoleMon.csproj",
         "projectName": "ConsoleMon",
-        "projectPath": "C:\\MA\\2021-2022\\P4\\GDCSharp2\\2022P4consolemon-\\ConsoleMon\\ConsoleMon.csproj",
-        "packagesPath": "C:\\Users\\jason\\.nuget\\packages\\",
-        "outputPath": "C:\\MA\\2021-2022\\P4\\GDCSharp2\\2022P4consolemon-\\ConsoleMon\\obj\\",
+        "projectPath": "C:\\Users\\Mosaw\\Desktop\\test\\2022P4consolemon-\\ConsoleMon\\ConsoleMon.csproj",
+        "packagesPath": "C:\\Users\\Mosaw\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mosaw\\Desktop\\test\\2022P4consolemon-\\ConsoleMon\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jason\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mosaw\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
