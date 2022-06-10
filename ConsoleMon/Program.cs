@@ -26,7 +26,7 @@ namespace GDCSharp2
             this.Name = copyFrom.Name;
             this.Energy = copyFrom.Energy;
 
-            for (int i = 0; i < copyFrom.Skill; i++)
+            for (int i = 0; i < copyFrom.skills; i++)
             {
 
             }
