@@ -54,7 +54,9 @@ namespace GDCSharp2
 
             for (int i = 0; i < copyFrom.skills.Count; i++)
             {
-
+                Skill copyFromThisSkill = copyFrom.skills[i];
+                Skill clone = new Skill(copyFromThisSkill);
+                this.skills.Add(clone);
             }
         }
 
