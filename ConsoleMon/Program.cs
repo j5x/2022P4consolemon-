@@ -1,8 +1,34 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace GDCSharp2
 {
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            ConsoleMon a = new ConsoleMon();
+
+            ConsoleMon b = new ConsoleMon();
+
+            Skill fire = new Skill();
+            Skill water = new Skill();
+            Skill lightning = new Skill();
+            Skill shadow = new Skill();
+
+            a.skills.Add(fire);
+            a.skills.Add(water);
+
+            b.skills.Add(lightning);
+            b.skills.Add(shadow);
+
+            ConsoleMonArena arena = new ConsoleMonArena();
+            arena.DoBattle(a, b);
+        }
+    }
 
     enum Elementen
     {
@@ -16,7 +42,7 @@ namespace GDCSharp2
     {
         public ConsoleMon()
         {
-
+            
         }
 
         public ConsoleMon(ConsoleMon copyFrom)
@@ -32,10 +58,11 @@ namespace GDCSharp2
             }
         }
 
-        List<Skill> skills = new List<Skill>();
-        int Health = 100;
-        int Energy = 100;
-        string Name = "Jakko";
+        internal List<Skill> skills = new List<Skill>();
+        
+        internal int Health = 100;
+        internal int Energy = 100;
+        internal string Name = "Jakko";
         public void TakeDamage(int Damage)
         {
             Health = Health - Damage;
@@ -46,10 +73,6 @@ namespace GDCSharp2
         }
         Elementen weakness = Elementen.Water;
     }
-    
-       
-    
-
 
     public class Skill
     {
@@ -66,18 +89,31 @@ namespace GDCSharp2
             this.Name = copyFrom.Name;
         }
 
-     
-
         public void UseOn(ConsoleMon target, ConsoleMon caster)
         {
             target.TakeDamage(Damage);
             caster.DepleteEnergy(EnergyCost);
-
-
-        }
-        
+        }      
         Elementen element = Elementen.Fire;
+    }
 
+    public class ConsoleMonArena
+    {
+        public void DoBattle(ConsoleMon a, ConsoleMon b)
+        {
+            Random random = new Random();
 
+            Skill skillA = a.skills[random.Next(2)];
+            Skill skillB = b.skills[random.Next(2)];
+
+            while (a.Health > 0 || b.Health > 0)
+            {
+                skillA.UseOn(b, a);
+                skillB.UseOn(a, b);
+
+                Console.WriteLine(a.Health);
+                Console.WriteLine(b.Health);
+            }
+        }
     }
 }
